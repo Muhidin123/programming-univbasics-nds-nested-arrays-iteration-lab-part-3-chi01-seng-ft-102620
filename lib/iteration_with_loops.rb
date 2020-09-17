@@ -6,6 +6,7 @@ def join_nested_strings(src)
     while inner_ix < src[index].count do
       if src[index][inner_ix].class == String
         arr << src[index][inner_ix]
+        arr.
       end
       inner_ix += 1
     end
